@@ -6,7 +6,7 @@ services:
       POSTGRES_USER: citybus
       POSTGRES_PASSWORD: citybus
     ports:
-      - "5432:5432"
+      - "55432:5432"
     volumes:
       - citybus_pg:/var/lib/postgresql/data
 

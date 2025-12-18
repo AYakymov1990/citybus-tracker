@@ -10,3 +10,6 @@ spring:
       ddl-auto: none
   flyway:
     enabled: false
+tracker:
+  simulator:
+    enabled: false
